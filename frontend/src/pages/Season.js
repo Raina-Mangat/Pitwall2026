@@ -218,7 +218,7 @@ export default function Season() {
           const location = cal.city || '';
           const isCorrect  = race.winnerCorrect === true;
           const isWrong    = race.hasResult && !race.winnerCorrect;
-          const isUpcoming = !race.hasResult;
+      
 
           const borderColor = isCorrect  ? '#4CAF5033'
                             : isWrong    ? '#E1060033'

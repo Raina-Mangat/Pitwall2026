@@ -22,9 +22,7 @@ const TEAM_COLORS = {
   'Racing Bulls':    '#6692FF',
 };
 
-function getColor(team) {
-  return TEAM_COLORS[team] || '#666';
-}
+
 
 const DRIVERS_2026 = [
   'ANT','RUS','HAM','LEC','NOR','PIA',
