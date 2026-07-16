@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#080808" />
+    <meta
+      name="description"
+      content="PitWall — F1 Race Intelligence Dashboard. ML-powered race winner predictions with live qualifying data and weather integration."
+    />
+
+    <!-- Preconnect for faster font loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Fonts: Barlow Condensed (display), Inter (body), JetBrains Mono (data) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>PitWall — F1 Race Intelligence</title>
+
+    <style>
+      /* Prevent flash of unstyled content before React loads */
+      body {
+        margin: 0;
+        background-color: #080808;
+        color: #c8c8c8;
+      }
+
+      /* Loading state shown before React mounts */
+      #root:empty::after {
+        content: 'INITIALISING PITWALL...';
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100%;
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 12px;
+        letter-spacing: 3px;
+        color: #444;
+      }
+    </style>
+  </head>
+
+  <body>
+    <noscript>
+      PitWall requires JavaScript to run. Please enable it in your browser.
+    </noscript>
+
+    <div id="root"></div>
+  </body>
+</html>

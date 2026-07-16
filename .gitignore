@@ -1,0 +1,25 @@
+# Node
+node_modules/
+**/node_modules/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# FastF1 cache
+cache/
+*.sqlite
+*.ff1pkl
+
+# Environment
+.env
+backend/.env
+frontend/.env
+
+# Logs
+*.log
+
+# Generated outputs
+predictions/
+results/

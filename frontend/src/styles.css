@@ -1,0 +1,484 @@
+:root {
+  --black:     #080808;
+  --carbon:    #141414;
+  --panel:     #1F1F1F;
+  --border:    #2A2A2A;
+  --red:       #E10600;
+  --red-dim:   #7A0300;
+  --text:      #C8C8C8;
+  --muted:     #666666;
+  --white:     #FFFFFF;
+
+  /* Team colors */
+  --mercedes:     #00D2BE;
+  --ferrari:      #E8002D;
+  --mclaren:      #FF8000;
+  --redbull:      #3671C6;
+  --alpine:       #0090FF;
+  --aston:        #358C75;
+  --williams:     #64C4FF;
+  --haas:         #B6BABD;
+  --audi:         #C0392B;
+  --cadillac:     #FFFFFF;
+  --racingbulls:  #6692FF;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: var(--black);
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── NAVBAR ── */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32px;
+  height: 56px;
+  background: var(--carbon);
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-logo {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.navbar-logo span { color: var(--red); }
+
+.navbar-links {
+  display: flex;
+  gap: 8px;
+  list-style: none;
+}
+
+.navbar-links a {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: var(--muted);
+  text-decoration: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  transition: all 0.15s ease;
+}
+
+.navbar-links a:hover,
+.navbar-links a.active {
+  color: var(--white);
+  background: var(--panel);
+}
+
+/* ── LAYOUT ── */
+.page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px 24px;
+}
+
+.page-header {
+  margin-bottom: 32px;
+}
+
+.page-eyebrow {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  color: var(--red);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.page-title {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 42px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: var(--white);
+  line-height: 1;
+}
+
+.page-subtitle {
+  font-size: 14px;
+  color: var(--muted);
+  margin-top: 8px;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 16px;
+  align-items: start;
+}
+
+/* ── CARD ── */
+.card {
+  background: var(--carbon);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.card-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 16px;
+}
+
+/* ── RACE HERO BANNER ── */
+.race-banner {
+  background: linear-gradient(135deg, var(--carbon) 0%, #1a0000 100%);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--red);
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.race-banner-left {}
+
+.race-banner-round {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  color: var(--red);
+  letter-spacing: 2px;
+  margin-bottom: 6px;
+}
+
+.race-banner-name {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--white);
+  letter-spacing: 1px;
+}
+
+.race-banner-circuit {
+  font-size: 13px;
+  color: var(--muted);
+  margin-top: 4px;
+}
+
+.race-banner-right {
+  text-align: right;
+}
+
+.race-banner-grid-note {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: var(--muted);
+  background: var(--panel);
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+.race-banner-grid-note.real {
+  color: #4CAF50;
+  border: 1px solid #4CAF50;
+}
+
+/* ── DRIVER PREDICTION ROWS ── */
+.driver-list { display: flex; flex-direction: column; gap: 2px; }
+
+.driver-row {
+  display: grid;
+  grid-template-columns: 32px 44px 1fr 80px 60px;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  background: var(--carbon);
+  border: 1px solid transparent;
+  transition: border-color 0.15s ease;
+}
+
+.driver-row:hover { border-color: var(--border); }
+
+.driver-row.podium-1 { border-left: 3px solid #FFD700; }
+.driver-row.podium-2 { border-left: 3px solid #C0C0C0; }
+.driver-row.podium-3 { border-left: 3px solid #CD7F32; }
+
+.driver-pos {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--muted);
+  text-align: center;
+}
+
+.driver-pos.gold   { color: #FFD700; }
+.driver-pos.silver { color: #C0C0C0; }
+.driver-pos.bronze { color: #CD7F32; }
+
+.driver-info {}
+
+.driver-code {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--white);
+  letter-spacing: 1px;
+}
+
+.driver-team {
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 1px;
+}
+
+.driver-bar-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.driver-bar-track {
+  height: 6px;
+  background: var(--panel);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.driver-bar-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.driver-bar-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  color: var(--muted);
+}
+
+.driver-win-pct {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--white);
+  text-align: right;
+}
+
+.driver-grid-pos {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  color: var(--muted);
+  text-align: right;
+}
+
+.dnf-badge {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9px;
+  color: #FF6B35;
+  border: 1px solid #FF6B35;
+  padding: 1px 5px;
+  border-radius: 3px;
+  margin-left: 6px;
+}
+
+/* ── WEATHER CARD ── */
+.weather-card { text-align: center; }
+
+.weather-condition {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--white);
+  margin: 12px 0;
+}
+
+.weather-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.weather-stat-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  color: var(--muted);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.weather-stat-value {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--white);
+  margin-top: 4px;
+}
+
+/* ── ACCURACY CARD ── */
+.accuracy-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.stat-box {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+}
+
+.stat-box-value {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  color: var(--white);
+}
+
+.stat-box-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  color: var(--muted);
+  letter-spacing: 1px;
+  margin-top: 4px;
+}
+
+/* ── RACE HISTORY TABLE ── */
+.race-table { width: 100%; border-collapse: collapse; }
+
+.race-table th {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--muted);
+  text-align: left;
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+.race-table td {
+  padding: 12px;
+  border-bottom: 1px solid var(--border);
+  font-size: 13px;
+}
+
+.race-table tr:hover td { background: var(--panel); }
+
+.badge {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+.badge-correct {
+  background: #0d2a0d;
+  color: #4CAF50;
+  border: 1px solid #4CAF50;
+}
+
+.badge-wrong {
+  background: #2a0d0d;
+  color: #f44336;
+  border: 1px solid #f44336;
+}
+
+/* ── LOADING / ERROR ── */
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  color: var(--muted);
+  letter-spacing: 1px;
+}
+
+.error-msg {
+  background: #1a0000;
+  border: 1px solid var(--red-dim);
+  border-radius: 8px;
+  padding: 16px;
+  font-size: 13px;
+  color: #ff6b6b;
+  margin: 20px 0;
+}
+
+/* ── DRIVER COMPARISON ── */
+.comparison-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.driver-select {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.stat-compare-row {
+  display: grid;
+  grid-template-columns: 1fr 120px 1fr;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.stat-compare-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  color: var(--muted);
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.stat-compare-val {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.stat-compare-val.left  { text-align: right; }
+.stat-compare-val.right { text-align: left; }
+.stat-compare-val.winner { color: #4CAF50; }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 768px) {
+  .grid-2 { grid-template-columns: 1fr; }
+  .page { padding: 16px; }
+  .page-title { font-size: 28px; }
+  .race-banner { flex-direction: column; gap: 12px; }
+  .race-banner-right { text-align: left; }
+  .accuracy-grid { grid-template-columns: repeat(2, 1fr); }
+  .navbar { padding: 0 16px; }
+  .navbar-links { gap: 4px; }
+}
