@@ -7,7 +7,7 @@ import axios from 'axios';
 import CircuitDNA from '../components/CircuitDNA';
 import ChampionshipRace from '../components/ChampionshipRace';
 
-const BASE = 'http://localhost:5000';
+const BASE = "https://pitwall2026.onrender.com";
 
 const TEAM_COLORS = {
   'Mercedes':        '#00D2BE',

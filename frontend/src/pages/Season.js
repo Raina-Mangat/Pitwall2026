@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import axios from 'axios';
 
-const BASE = 'http://localhost:5000';
+const BASE = "https://pitwall2026.onrender.com";
 
 const TEAM_COLORS = {
   'Mercedes':        '#00D2BE',

@@ -32,7 +32,7 @@ export default function TyreStrategy({ year, round, raceName }) {
   useEffect(() => {
     if (!year || !round) return;
     setLoading(true);
-    axios.get(`http://localhost:5000/api/strategy/${year}/${round}`)
+    axios.get(`https://pitwall2026.onrender.com/api/strategy/${year}/${round}`)
       .then(r  => setData(r.data))
       .catch(e => setError(e.message))
       .finally(() => setLoading(false));

@@ -28,7 +28,7 @@ export default function ChampionshipRace() {
   const intervalRef               = useRef(null);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/constructors/timeline')
+    (axios.get('https://pitwall2026.onrender.com/api/constructors/timeline'))
       .then(r => {
         setTimeline(r.data.timeline || []);
         setTeams(r.data.teams || []);
