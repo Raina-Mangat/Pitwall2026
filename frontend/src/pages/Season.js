@@ -191,17 +191,18 @@ export default function Season() {
   if (error)   return <div className="page"><div className="error-msg">{error}</div></div>;
 
   const completed = races.filter(r => r.hasResult).length;
-  const remaining = races.filter(r => !r.hasResult).length;
+  
 
   return (
     <div className="page">
       <div className="page-header">
-        <div className="page-eyebrow">2026 FORMULA 1 SEASON</div>
-        <h1 className="page-title">Season Calendar</h1>
-        <p className="page-subtitle">
-          {completed} races completed · {remaining} remaining
-        </p>
-      </div>
+  <div className="page-eyebrow">2026 FORMULA 1 SEASON</div>
+  <h1 className="page-title">Season Calendar</h1>
+
+  <p className="page-subtitle">
+    {completed} races completed
+  </p>
+</div>
 
       <DriversChampionship />
 
