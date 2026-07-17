@@ -20,6 +20,4 @@ frontend/.env
 # Logs
 *.log
 
-# Generated outputs
-predictions/
-results/
+
