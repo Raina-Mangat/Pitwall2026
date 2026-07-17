@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const BASE = 'http://localhost:5000';
+const BASE = 'https://pitwall2026.onrender.com';
 
 export function useNextPrediction() {
   const [data,    setData]    = useState(null);
