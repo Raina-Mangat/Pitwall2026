@@ -13,13 +13,10 @@ on:
 
 jobs:
   pipeline:
-
     runs-on: ubuntu-latest
-
     timeout-minutes: 20
 
     steps:
-
       - uses: actions/checkout@v4
 
       - uses: actions/setup-python@v5
@@ -37,7 +34,11 @@ jobs:
         with:
           path: cache
           key: fastf1-${{ runner.os }}
-          restore-keys: fastf1-
+          restore-keys: |
+            fastf1-
+
+      - name: Create cache directory
+        run: mkdir -p cache
 
       - name: Run pipeline
         run: python pipeline.py
@@ -49,6 +50,9 @@ jobs:
 
           git add .
 
-          git diff --cached --quiet || git commit -m "🤖 Automated race update"
-
-          git push
+          if ! git diff --cached --quiet; then
+            git commit -m "🤖 Automated race update"
+            git push
+          else
+            echo "No changes to commit."
+          fi
