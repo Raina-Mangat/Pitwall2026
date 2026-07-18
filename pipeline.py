@@ -3,12 +3,14 @@ import numpy as np
 import joblib
 import requests
 import fastf1
-import os
 import warnings
 from datetime import datetime, timedelta
 warnings.filterwarnings('ignore')
+import os
 
-fastf1.Cache.enable_cache('cache')
+cache_dir = os.environ.get("FASTF1_CACHE", "cache")
+os.makedirs(cache_dir, exist_ok=True)
+fastf1.Cache.enable_cache(cache_dir)
 
 # ─────────────────────────────────────────────────────────────────
 # CIRCUIT COORDINATES for weather API
