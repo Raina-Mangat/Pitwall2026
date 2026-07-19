@@ -1,1 +1,23 @@
-Abbreviation,TeamName,GridPosition,Position,Points,Race,Round,Year
+Abbreviation,Points,Position,GridPosition,TeamName,Race,Round,Year
+ANT,25.0,1.0,1.0,Mercedes,Belgian Grand Prix,10,2026
+LEC,18.0,2.0,4.0,Ferrari,Belgian Grand Prix,10,2026
+VER,15.0,3.0,2.0,Red Bull,Belgian Grand Prix,10,2026
+HAM,12.0,4.0,5.0,Ferrari,Belgian Grand Prix,10,2026
+PIA,10.0,5.0,6.0,McLaren,Belgian Grand Prix,10,2026
+HAD,8.0,6.0,21.0,Red Bull,Belgian Grand Prix,10,2026
+NOR,6.0,7.0,13.0,McLaren,Belgian Grand Prix,10,2026
+BOR,4.0,8.0,8.0,Audi,Belgian Grand Prix,10,2026
+LIN,2.0,9.0,7.0,RB F1 Team,Belgian Grand Prix,10,2026
+COL,1.0,10.0,11.0,Alpine F1 Team,Belgian Grand Prix,10,2026
+GAS,0.0,11.0,10.0,Alpine F1 Team,Belgian Grand Prix,10,2026
+LAW,0.0,12.0,9.0,RB F1 Team,Belgian Grand Prix,10,2026
+HUL,0.0,13.0,12.0,Audi,Belgian Grand Prix,10,2026
+BEA,0.0,14.0,14.0,Haas F1 Team,Belgian Grand Prix,10,2026
+ALB,0.0,15.0,15.0,Williams,Belgian Grand Prix,10,2026
+SAI,0.0,16.0,19.0,Williams,Belgian Grand Prix,10,2026
+OCO,0.0,17.0,16.0,Haas F1 Team,Belgian Grand Prix,10,2026
+BOT,0.0,18.0,17.0,Cadillac F1 Team,Belgian Grand Prix,10,2026
+ALO,0.0,19.0,22.0,Aston Martin,Belgian Grand Prix,10,2026
+STR,0.0,20.0,20.0,Aston Martin,Belgian Grand Prix,10,2026
+PER,0.0,21.0,18.0,Cadillac F1 Team,Belgian Grand Prix,10,2026
+RUS,0.0,22.0,3.0,Mercedes,Belgian Grand Prix,10,2026

@@ -17,3 +17,4 @@ Monaco Grand Prix,6,2026,ANT,ANT,True,2,"{'ANT', 'VER', 'HAM'}","{'ANT', 'GAS', 
 Spanish Grand Prix,7,2026,ANT,HAM,False,2,"{'ANT', 'RUS', 'NOR'}","{'RUS', 'NOR', 'HAM'}"
 Austrian Grand Prix,8,2026,RUS,RUS,True,2,"{'ANT', 'RUS', 'LEC'}","{'ANT', 'RUS', 'VER'}"
 Belgian Grand Prix,10,2026,ANT,Unknown,False,0,"{'ANT', 'RUS', 'VER'}",set()
+Belgian Grand Prix,10,2026,ANT,ANT,True,1,"{'ANT', 'NOR', 'RUS'}","{'ANT', 'LEC', 'VER'}"
