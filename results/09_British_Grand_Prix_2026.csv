@@ -1,23 +1,23 @@
-TeamName,Abbreviation,Position,GridPosition,Points,Race,Round,Year
-Ferrari,LEC,1.0,2.0,25.0,British Grand Prix,9,2026
-Mercedes,RUS,2.0,4.0,18.0,British Grand Prix,9,2026
-Ferrari,HAM,3.0,3.0,15.0,British Grand Prix,9,2026
-McLaren,NOR,4.0,6.0,12.0,British Grand Prix,9,2026
-Red Bull Racing,HAD,5.0,5.0,10.0,British Grand Prix,9,2026
-Racing Bulls,LAW,6.0,10.0,8.0,British Grand Prix,9,2026
-Racing Bulls,LIN,7.0,9.0,6.0,British Grand Prix,9,2026
-Audi,BOR,8.0,11.0,4.0,British Grand Prix,9,2026
-Alpine,COL,9.0,19.0,2.0,British Grand Prix,9,2026
-Alpine,GAS,10.0,15.0,1.0,British Grand Prix,9,2026
-McLaren,PIA,11.0,8.0,0.0,British Grand Prix,9,2026
-Williams,SAI,12.0,14.0,0.0,British Grand Prix,9,2026
-Haas F1 Team,BEA,13.0,13.0,0.0,British Grand Prix,9,2026
-Haas F1 Team,OCO,14.0,17.0,0.0,British Grand Prix,9,2026
-Cadillac,PER,15.0,20.0,0.0,British Grand Prix,9,2026
-Mercedes,ANT,16.0,1.0,0.0,British Grand Prix,9,2026
-Cadillac,BOT,17.0,18.0,0.0,British Grand Prix,9,2026
-Aston Martin,ALO,18.0,21.0,0.0,British Grand Prix,9,2026
-Aston Martin,STR,19.0,22.0,0.0,British Grand Prix,9,2026
-Red Bull Racing,VER,20.0,7.0,0.0,British Grand Prix,9,2026
-Williams,ALB,21.0,16.0,0.0,British Grand Prix,9,2026
-Audi,HUL,22.0,12.0,0.0,British Grand Prix,9,2026
+Abbreviation,TeamName,GridPosition,Position,Points,Race,Round,Year
+LEC,Ferrari,2.0,1.0,25.0,British Grand Prix,9,2026
+RUS,Mercedes,4.0,2.0,18.0,British Grand Prix,9,2026
+HAM,Ferrari,3.0,3.0,15.0,British Grand Prix,9,2026
+NOR,McLaren,6.0,4.0,12.0,British Grand Prix,9,2026
+HAD,Red Bull Racing,5.0,5.0,10.0,British Grand Prix,9,2026
+LAW,Racing Bulls,10.0,6.0,8.0,British Grand Prix,9,2026
+LIN,Racing Bulls,9.0,7.0,6.0,British Grand Prix,9,2026
+BOR,Audi,11.0,8.0,4.0,British Grand Prix,9,2026
+COL,Alpine,19.0,9.0,2.0,British Grand Prix,9,2026
+GAS,Alpine,15.0,10.0,1.0,British Grand Prix,9,2026
+PIA,McLaren,8.0,11.0,0.0,British Grand Prix,9,2026
+BEA,Haas F1 Team,13.0,12.0,0.0,British Grand Prix,9,2026
+OCO,Haas F1 Team,17.0,13.0,0.0,British Grand Prix,9,2026
+PER,Cadillac,20.0,14.0,0.0,British Grand Prix,9,2026
+ANT,Mercedes,1.0,15.0,0.0,British Grand Prix,9,2026
+BOT,Cadillac,18.0,16.0,0.0,British Grand Prix,9,2026
+SAI,Williams,14.0,17.0,0.0,British Grand Prix,9,2026
+ALO,Aston Martin,21.0,18.0,0.0,British Grand Prix,9,2026
+STR,Aston Martin,22.0,19.0,0.0,British Grand Prix,9,2026
+VER,Red Bull Racing,7.0,20.0,0.0,British Grand Prix,9,2026
+ALB,Williams,16.0,21.0,0.0,British Grand Prix,9,2026
+HUL,Audi,12.0,22.0,0.0,British Grand Prix,9,2026

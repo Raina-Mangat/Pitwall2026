@@ -316,6 +316,10 @@ def save_actual_result(race_info):
             winner = "Unknown"
         else:
             winner = winner_row.iloc[0]["Abbreviation"]
+            print("\n===== DEBUG =====")
+            print(result[["Abbreviation", "Position"]].head(10))
+            print("Winner:", winner)
+
 
         print(f"Result saved — Winner: {winner}")
 
@@ -374,7 +378,15 @@ def log_accuracy(race_info, pred_result, actual_winner):
     }])
 
     if os.path.exists(acc_file):
-        row.to_csv(acc_file, mode='a', header=False, index=False)
+         existing = pd.read_csv(acc_file)
+         existing = existing[
+              ~(
+            (existing["Round"] == race_info["round"]) &
+            (existing["Year"] == race_info["year"])
+        )
+    ]
+         updated = pd.concat([existing, row], ignore_index=True)
+         updated.to_csv(acc_file, index=False)
     else:
         row.to_csv(acc_file, mode='w', header=True, index=False)
 
@@ -437,7 +449,7 @@ def main():
         print(f"{'─'*60}")
 
         # Skip if fully processed
-        if is_already_processed(race_info):
+        if is_already_processed(race_info) and race_info["round"] != 10:
             print(f"  Already fully processed — skipping")
             summary.append({
                 'round': race_info['round'],

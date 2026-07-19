@@ -1,23 +1,23 @@
-TeamName,Position,Abbreviation,Points,GridPosition,Race,Round,Year
-Mercedes,1.0,ANT,25.0,2.0,Canadian Grand Prix,5,2026
-Ferrari,2.0,HAM,18.0,5.0,Canadian Grand Prix,5,2026
-Red Bull,3.0,VER,15.0,6.0,Canadian Grand Prix,5,2026
-Ferrari,4.0,LEC,12.0,8.0,Canadian Grand Prix,5,2026
-Red Bull,5.0,HAD,10.0,7.0,Canadian Grand Prix,5,2026
-Alpine F1 Team,6.0,COL,8.0,10.0,Canadian Grand Prix,5,2026
-RB F1 Team,7.0,LAW,6.0,12.0,Canadian Grand Prix,5,2026
-Alpine F1 Team,8.0,GAS,4.0,14.0,Canadian Grand Prix,5,2026
-Williams,9.0,SAI,2.0,15.0,Canadian Grand Prix,5,2026
-Haas F1 Team,10.0,BEA,1.0,16.0,Canadian Grand Prix,5,2026
-McLaren,11.0,PIA,0.0,4.0,Canadian Grand Prix,5,2026
-Audi,12.0,HUL,0.0,11.0,Canadian Grand Prix,5,2026
-Audi,13.0,BOR,0.0,13.0,Canadian Grand Prix,5,2026
-Haas F1 Team,14.0,OCO,0.0,17.0,Canadian Grand Prix,5,2026
-Aston Martin,15.0,STR,0.0,22.0,Canadian Grand Prix,5,2026
-Cadillac F1 Team,16.0,BOT,0.0,21.0,Canadian Grand Prix,5,2026
-Cadillac F1 Team,17.0,PER,0.0,20.0,Canadian Grand Prix,5,2026
-McLaren,18.0,NOR,0.0,3.0,Canadian Grand Prix,5,2026
-Mercedes,19.0,RUS,0.0,1.0,Canadian Grand Prix,5,2026
-Aston Martin,20.0,ALO,0.0,19.0,Canadian Grand Prix,5,2026
-Williams,21.0,ALB,0.0,18.0,Canadian Grand Prix,5,2026
-RB F1 Team,22.0,LIN,0.0,9.0,Canadian Grand Prix,5,2026
+Abbreviation,TeamName,GridPosition,Position,Points,Race,Round,Year
+ANT,Mercedes,2.0,1.0,25.0,Canadian Grand Prix,5,2026
+HAM,Ferrari,5.0,2.0,18.0,Canadian Grand Prix,5,2026
+VER,Red Bull Racing,6.0,3.0,15.0,Canadian Grand Prix,5,2026
+LEC,Ferrari,8.0,4.0,12.0,Canadian Grand Prix,5,2026
+HAD,Red Bull Racing,7.0,5.0,10.0,Canadian Grand Prix,5,2026
+COL,Alpine,10.0,6.0,8.0,Canadian Grand Prix,5,2026
+LAW,Racing Bulls,12.0,7.0,6.0,Canadian Grand Prix,5,2026
+GAS,Alpine,14.0,8.0,4.0,Canadian Grand Prix,5,2026
+SAI,Williams,15.0,9.0,2.0,Canadian Grand Prix,5,2026
+BEA,Haas F1 Team,16.0,10.0,1.0,Canadian Grand Prix,5,2026
+PIA,McLaren,4.0,11.0,0.0,Canadian Grand Prix,5,2026
+HUL,Audi,11.0,12.0,0.0,Canadian Grand Prix,5,2026
+BOR,Audi,13.0,13.0,0.0,Canadian Grand Prix,5,2026
+OCO,Haas F1 Team,17.0,14.0,0.0,Canadian Grand Prix,5,2026
+STR,Aston Martin,22.0,15.0,0.0,Canadian Grand Prix,5,2026
+BOT,Cadillac,21.0,16.0,0.0,Canadian Grand Prix,5,2026
+PER,Cadillac,20.0,17.0,0.0,Canadian Grand Prix,5,2026
+NOR,McLaren,3.0,18.0,0.0,Canadian Grand Prix,5,2026
+RUS,Mercedes,1.0,19.0,0.0,Canadian Grand Prix,5,2026
+ALO,Aston Martin,19.0,20.0,0.0,Canadian Grand Prix,5,2026
+ALB,Williams,18.0,21.0,0.0,Canadian Grand Prix,5,2026
+LIN,Racing Bulls,9.0,22.0,0.0,Canadian Grand Prix,5,2026

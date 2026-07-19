@@ -1,23 +1,23 @@
-TeamName,Position,Abbreviation,Points,GridPosition,Race,Round,Year
-Mercedes,1.0,RUS,25.0,1.0,Austrian Grand Prix,8,2026
-Red Bull,2.0,VER,18.0,5.0,Austrian Grand Prix,8,2026
-Mercedes,3.0,ANT,15.0,4.0,Austrian Grand Prix,8,2026
-McLaren,4.0,PIA,12.0,7.0,Austrian Grand Prix,8,2026
-Ferrari,5.0,HAM,10.0,3.0,Austrian Grand Prix,8,2026
-Red Bull,6.0,HAD,8.0,8.0,Austrian Grand Prix,8,2026
-McLaren,7.0,NOR,6.0,6.0,Austrian Grand Prix,8,2026
-Ferrari,8.0,LEC,4.0,2.0,Austrian Grand Prix,8,2026
-RB F1 Team,9.0,LAW,2.0,9.0,Austrian Grand Prix,8,2026
-RB F1 Team,10.0,LIN,1.0,10.0,Austrian Grand Prix,8,2026
-Audi,11.0,BOR,0.0,12.0,Austrian Grand Prix,8,2026
-Audi,12.0,HUL,0.0,14.0,Austrian Grand Prix,8,2026
-Alpine F1 Team,13.0,GAS,0.0,11.0,Austrian Grand Prix,8,2026
-Haas F1 Team,14.0,BEA,0.0,13.0,Austrian Grand Prix,8,2026
-Alpine F1 Team,15.0,COL,0.0,16.0,Austrian Grand Prix,8,2026
-Haas F1 Team,16.0,OCO,0.0,15.0,Austrian Grand Prix,8,2026
-Williams,17.0,ALB,0.0,18.0,Austrian Grand Prix,8,2026
-Aston Martin,18.0,ALO,0.0,21.0,Austrian Grand Prix,8,2026
-Aston Martin,19.0,STR,0.0,22.0,Austrian Grand Prix,8,2026
-Williams,20.0,SAI,0.0,17.0,Austrian Grand Prix,8,2026
-Cadillac F1 Team,21.0,PER,0.0,19.0,Austrian Grand Prix,8,2026
-Cadillac F1 Team,22.0,BOT,0.0,20.0,Austrian Grand Prix,8,2026
+Abbreviation,TeamName,GridPosition,Position,Points,Race,Round,Year
+RUS,Mercedes,1.0,1.0,25.0,Austrian Grand Prix,8,2026
+VER,Red Bull Racing,5.0,2.0,18.0,Austrian Grand Prix,8,2026
+ANT,Mercedes,4.0,3.0,15.0,Austrian Grand Prix,8,2026
+PIA,McLaren,7.0,4.0,12.0,Austrian Grand Prix,8,2026
+HAM,Ferrari,3.0,5.0,10.0,Austrian Grand Prix,8,2026
+HAD,Red Bull Racing,8.0,6.0,8.0,Austrian Grand Prix,8,2026
+NOR,McLaren,6.0,7.0,6.0,Austrian Grand Prix,8,2026
+LEC,Ferrari,2.0,8.0,4.0,Austrian Grand Prix,8,2026
+LAW,Racing Bulls,9.0,9.0,2.0,Austrian Grand Prix,8,2026
+LIN,Racing Bulls,10.0,10.0,1.0,Austrian Grand Prix,8,2026
+BOR,Audi,12.0,11.0,0.0,Austrian Grand Prix,8,2026
+HUL,Audi,14.0,12.0,0.0,Austrian Grand Prix,8,2026
+GAS,Alpine,11.0,13.0,0.0,Austrian Grand Prix,8,2026
+BEA,Haas F1 Team,13.0,14.0,0.0,Austrian Grand Prix,8,2026
+COL,Alpine,16.0,15.0,0.0,Austrian Grand Prix,8,2026
+OCO,Haas F1 Team,15.0,16.0,0.0,Austrian Grand Prix,8,2026
+ALB,Williams,18.0,17.0,0.0,Austrian Grand Prix,8,2026
+ALO,Aston Martin,21.0,18.0,0.0,Austrian Grand Prix,8,2026
+STR,Aston Martin,22.0,19.0,0.0,Austrian Grand Prix,8,2026
+SAI,Williams,17.0,20.0,0.0,Austrian Grand Prix,8,2026
+PER,Cadillac,19.0,21.0,0.0,Austrian Grand Prix,8,2026
+BOT,Cadillac,20.0,22.0,0.0,Austrian Grand Prix,8,2026

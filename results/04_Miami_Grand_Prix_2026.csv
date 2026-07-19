@@ -1,23 +1,23 @@
-TeamName,Position,Abbreviation,Points,GridPosition,Race,Round,Year
-Mercedes,1.0,ANT,25.0,1.0,Miami Grand Prix,4,2026
-McLaren,2.0,NOR,18.0,4.0,Miami Grand Prix,4,2026
-McLaren,3.0,PIA,15.0,7.0,Miami Grand Prix,4,2026
-Mercedes,4.0,RUS,12.0,5.0,Miami Grand Prix,4,2026
-Red Bull,5.0,VER,10.0,2.0,Miami Grand Prix,4,2026
-Ferrari,6.0,HAM,8.0,6.0,Miami Grand Prix,4,2026
-Alpine F1 Team,7.0,COL,6.0,8.0,Miami Grand Prix,4,2026
-Ferrari,8.0,LEC,4.0,3.0,Miami Grand Prix,4,2026
-Williams,9.0,SAI,2.0,13.0,Miami Grand Prix,4,2026
-Williams,10.0,ALB,1.0,15.0,Miami Grand Prix,4,2026
-Haas F1 Team,11.0,BEA,0.0,12.0,Miami Grand Prix,4,2026
-Audi,12.0,BOR,0.0,21.0,Miami Grand Prix,4,2026
-Haas F1 Team,13.0,OCO,0.0,14.0,Miami Grand Prix,4,2026
-RB F1 Team,14.0,LIN,0.0,16.0,Miami Grand Prix,4,2026
-Aston Martin,15.0,ALO,0.0,17.0,Miami Grand Prix,4,2026
-Cadillac F1 Team,16.0,PER,0.0,20.0,Miami Grand Prix,4,2026
-Aston Martin,17.0,STR,0.0,18.0,Miami Grand Prix,4,2026
-Cadillac F1 Team,18.0,BOT,0.0,19.0,Miami Grand Prix,4,2026
-Audi,19.0,HUL,0.0,10.0,Miami Grand Prix,4,2026
-RB F1 Team,20.0,LAW,0.0,11.0,Miami Grand Prix,4,2026
-Alpine F1 Team,21.0,GAS,0.0,9.0,Miami Grand Prix,4,2026
-Red Bull,22.0,HAD,0.0,22.0,Miami Grand Prix,4,2026
+Abbreviation,TeamName,GridPosition,Position,Points,Race,Round,Year
+ANT,Mercedes,1.0,1.0,25.0,Miami Grand Prix,4,2026
+NOR,McLaren,4.0,2.0,18.0,Miami Grand Prix,4,2026
+PIA,McLaren,7.0,3.0,15.0,Miami Grand Prix,4,2026
+RUS,Mercedes,5.0,4.0,12.0,Miami Grand Prix,4,2026
+VER,Red Bull Racing,2.0,5.0,10.0,Miami Grand Prix,4,2026
+HAM,Ferrari,6.0,6.0,8.0,Miami Grand Prix,4,2026
+COL,Alpine,8.0,7.0,6.0,Miami Grand Prix,4,2026
+LEC,Ferrari,3.0,8.0,4.0,Miami Grand Prix,4,2026
+SAI,Williams,13.0,9.0,2.0,Miami Grand Prix,4,2026
+ALB,Williams,15.0,10.0,1.0,Miami Grand Prix,4,2026
+BEA,Haas F1 Team,12.0,11.0,0.0,Miami Grand Prix,4,2026
+BOR,Audi,21.0,12.0,0.0,Miami Grand Prix,4,2026
+OCO,Haas F1 Team,14.0,13.0,0.0,Miami Grand Prix,4,2026
+LIN,Racing Bulls,16.0,14.0,0.0,Miami Grand Prix,4,2026
+ALO,Aston Martin,17.0,15.0,0.0,Miami Grand Prix,4,2026
+PER,Cadillac,20.0,16.0,0.0,Miami Grand Prix,4,2026
+STR,Aston Martin,18.0,17.0,0.0,Miami Grand Prix,4,2026
+BOT,Cadillac,19.0,18.0,0.0,Miami Grand Prix,4,2026
+HUL,Audi,10.0,19.0,0.0,Miami Grand Prix,4,2026
+LAW,Racing Bulls,11.0,20.0,0.0,Miami Grand Prix,4,2026
+GAS,Alpine,9.0,21.0,0.0,Miami Grand Prix,4,2026
+HAD,Red Bull Racing,22.0,22.0,0.0,Miami Grand Prix,4,2026
