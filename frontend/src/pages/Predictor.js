@@ -628,7 +628,7 @@ export default function Predictor() {
   );
   const maxWin  = sorted[0]?.WinProbability || 1;
   const top3    = sorted.slice(0, 3);
-  console.log("Driver 0:", drivers[0]);
+ console.log(JSON.stringify(drivers[0], null, 2));
 console.log("RealGrid:", drivers[0]?.RealGrid);
 console.log("Type:", typeof drivers[0]?.RealGrid);
   const isReal = ["true", "1", "yes"].includes(
