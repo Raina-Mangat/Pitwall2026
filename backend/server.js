@@ -376,9 +376,12 @@ app.get('/api/calendar', (req, res) => {
       const roundStr = String(round).padStart(2,'0');
 
       const resultFile = resultFiles.find(r => r.startsWith(roundStr + '_'));
-      const accRow = (accData || []).find(a => parseInt(a.Round) === round) &&
+      const accRow = (accData || []).find(
+  a =>
+    parseInt(a.Round) === round &&
     parseInt(a.Year) === year &&
-    a.Race.trim() === raceName.trim();
+    a.Race.trim() === raceName.trim()
+);
       
       let predictedWinner = null;
       let actualWinner    = null;
