@@ -628,6 +628,9 @@ export default function Predictor() {
   );
   const maxWin  = sorted[0]?.WinProbability || 1;
   const top3    = sorted.slice(0, 3);
+  console.log("Driver 0:", drivers[0]);
+console.log("RealGrid:", drivers[0]?.RealGrid);
+console.log("Type:", typeof drivers[0]?.RealGrid);
   const isReal  = drivers[0]?.RealGrid === 1 || drivers[0]?.RealGrid === true;
   const topTeam = sorted[0]?.Team || sorted[0]?.TeamName || '';
 
