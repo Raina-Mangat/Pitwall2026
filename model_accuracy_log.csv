@@ -8,13 +8,4 @@ Monaco Grand Prix,6,2026,ANT,ANT,True,2,"{'ANT', 'HAM', 'HAD'}","{'GAS', 'ANT', 
 Spanish Grand Prix,7,2026,ANT,HAM,False,2,"{'ANT', 'RUS', 'HAM'}","{'NOR', 'RUS', 'HAM'}"
 Austrian Grand Prix,8,2026,RUS,RUS,True,2,"{'ANT', 'RUS', 'LEC'}","{'ANT', 'RUS', 'VER'}"
 British Grand Prix,9,2026,ANT,LEC,False,1,"{'LEC', 'ANT', 'VER'}","{'HAM', 'LEC', 'RUS'}"
-Australian Grand Prix,1,2026,ANT,RUS,False,2,"{'ANT', 'LEC', 'HAD'}","{'ANT', 'RUS', 'LEC'}"
-Chinese Grand Prix,2,2026,ANT,ANT,True,2,"{'ANT', 'RUS', 'PIA'}","{'ANT', 'RUS', 'HAM'}"
-Japanese Grand Prix,3,2026,ANT,ANT,True,2,"{'ANT', 'RUS', 'PIA'}","{'ANT', 'LEC', 'PIA'}"
-Miami Grand Prix,4,2026,ANT,ANT,True,1,"{'ANT', 'LEC', 'VER'}","{'ANT', 'NOR', 'PIA'}"
-Canadian Grand Prix,5,2026,ANT,ANT,True,1,"{'ANT', 'RUS', 'PIA'}","{'ANT', 'VER', 'HAM'}"
-Monaco Grand Prix,6,2026,ANT,ANT,True,2,"{'ANT', 'VER', 'HAM'}","{'ANT', 'GAS', 'HAM'}"
-Spanish Grand Prix,7,2026,ANT,HAM,False,2,"{'ANT', 'RUS', 'NOR'}","{'RUS', 'NOR', 'HAM'}"
-Austrian Grand Prix,8,2026,RUS,RUS,True,2,"{'ANT', 'RUS', 'LEC'}","{'ANT', 'RUS', 'VER'}"
-Belgian Grand Prix,10,2026,ANT,Unknown,False,0,"{'ANT', 'RUS', 'VER'}",set()
 Belgian Grand Prix,10,2026,ANT,ANT,True,1,"{'ANT', 'NOR', 'RUS'}","{'ANT', 'LEC', 'VER'}"
