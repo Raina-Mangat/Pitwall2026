@@ -631,7 +631,9 @@ export default function Predictor() {
   console.log("Driver 0:", drivers[0]);
 console.log("RealGrid:", drivers[0]?.RealGrid);
 console.log("Type:", typeof drivers[0]?.RealGrid);
-  const isReal  = drivers[0]?.RealGrid === 1 || drivers[0]?.RealGrid === true;
+  const isReal = ["true", "1", "yes"].includes(
+  String(drivers[0]?.RealGrid).toLowerCase()
+);
   const topTeam = sorted[0]?.Team || sorted[0]?.TeamName || '';
 
   // Detect race date — try to build from available data
