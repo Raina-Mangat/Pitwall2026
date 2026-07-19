@@ -127,6 +127,9 @@ app.get('/api/predictions/:round', (req, res) => {
     }
 
     const data = readCSV(path.join(paths.predictions, matchFile));
+    console.log("File:", matchFile);
+console.log("Headers:", Object.keys(data[0]));
+console.log("First row:", data[0]);
 
     if (!data) {
       return res.status(500).json({ error: 'Failed to read prediction file' });
