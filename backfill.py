@@ -275,31 +275,55 @@ def save_prediction(result, race_info, is_real_grid, wet_flag, temp_c, rain_mm):
 def save_actual_result(race_info):
     try:
         session = fastf1.get_session(
-            race_info['year'], race_info['round'], 'R'
+            race_info['year'],
+            race_info['round'],
+            'R'
         )
-        session.load(telemetry=False, weather=False, messages=False)
+        session.load(
+            telemetry=False,
+            weather=False,
+            messages=False
+        )
 
-        result = session.results[[
-            'Abbreviation','TeamName','GridPosition','Position','Points'
-        ]].copy()
-        result['Race']  = race_info['name']
+        result = session.results[
+            ['Abbreviation', 'TeamName', 'GridPosition', 'Position', 'Points']
+        ].copy()
+
+        result['Race'] = race_info['name']
         result['Round'] = race_info['round']
-        result['Year']  = race_info['year']
+        result['Year'] = race_info['year']
 
         os.makedirs('results', exist_ok=True)
-        slug     = race_info['name'].replace(' ','_').replace("'",'')
-        filename = f"results/{race_info['round']:02d}_{slug}_{race_info['year']}.csv"
+
+        slug = race_info['name'].replace(' ', '_').replace("'", "")
+        filename = (
+            f"results/{race_info['round']:02d}_{slug}_{race_info['year']}.csv"
+        )
+
         result.to_csv(filename, index=False)
 
-        winner = result[result['Position'] == 1]['Abbreviation'].values
-        winner = winner[0] if len(winner) > 0 else 'Unknown'
-        print(f"  Result saved — Winner: {winner}")
+        # DEBUG
+        print(result[['Abbreviation', 'Position']].head(10))
+
+        result["Position"] = pd.to_numeric(
+            result["Position"],
+            errors="coerce"
+        )
+
+        winner_row = result[result["Position"] == 1]
+
+        if winner_row.empty:
+            winner = "Unknown"
+        else:
+            winner = winner_row.iloc[0]["Abbreviation"]
+
+        print(f"Result saved — Winner: {winner}")
+
         return result, winner
 
     except Exception as e:
-        print(f"  Race result not available ({e})")
+        print(f"Race result not available ({e})")
         return None, None
-
 # ─────────────────────────────────────────────────────────────────
 # LOG ACCURACY — skip if already logged for this round
 # ─────────────────────────────────────────────────────────────────
