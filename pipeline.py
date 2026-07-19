@@ -463,6 +463,7 @@ def save_prediction(result, race_info, is_real_grid, wet_flag, temp_c, rain_mm):
             .replace("'", "")
             .replace('/', ''))
     filename = f"predictions/{race_info['round']:02d}_{slug}_{race_info['year']}.csv"
+    result["RealGrid"] = is_real_grid
     result.to_csv(filename, index=False)
     print(f"\nSaved: {filename}")
 
