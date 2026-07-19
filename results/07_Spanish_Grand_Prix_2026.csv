@@ -1,23 +1,23 @@
-GridPosition,Position,Abbreviation,Points,TeamName,Race,Round,Year
-2.0,1.0,HAM,25.0,Ferrari,Spanish Grand Prix,7,2026
-1.0,2.0,RUS,18.0,Mercedes,Spanish Grand Prix,7,2026
-4.0,3.0,NOR,15.0,McLaren,Spanish Grand Prix,7,2026
-5.0,4.0,VER,12.0,Red Bull Racing,Spanish Grand Prix,7,2026
-7.0,5.0,PIA,10.0,McLaren,Spanish Grand Prix,7,2026
-6.0,6.0,HAD,8.0,Red Bull Racing,Spanish Grand Prix,7,2026
-14.0,7.0,GAS,6.0,Alpine,Spanish Grand Prix,7,2026
-8.0,8.0,LAW,4.0,Racing Bulls,Spanish Grand Prix,7,2026
-11.0,9.0,LIN,2.0,Racing Bulls,Spanish Grand Prix,7,2026
-13.0,10.0,COL,1.0,Alpine,Spanish Grand Prix,7,2026
-12.0,11.0,BOR,0.0,Audi,Spanish Grand Prix,7,2026
-16.0,12.0,SAI,0.0,Williams,Spanish Grand Prix,7,2026
-17.0,13.0,OCO,0.0,Haas F1 Team,Spanish Grand Prix,7,2026
-19.0,14.0,PER,0.0,Cadillac,Spanish Grand Prix,7,2026
-10.0,15.0,LEC,0.0,Ferrari,Spanish Grand Prix,7,2026
-3.0,16.0,ANT,0.0,Mercedes,Spanish Grand Prix,7,2026
-15.0,17.0,BEA,0.0,Haas F1 Team,Spanish Grand Prix,7,2026
-18.0,18.0,ALB,0.0,Williams,Spanish Grand Prix,7,2026
-22.0,19.0,ALO,0.0,Aston Martin,Spanish Grand Prix,7,2026
-9.0,20.0,HUL,0.0,Audi,Spanish Grand Prix,7,2026
-20.0,21.0,BOT,0.0,Cadillac,Spanish Grand Prix,7,2026
-21.0,22.0,STR,0.0,Aston Martin,Spanish Grand Prix,7,2026
+TeamName,Position,Abbreviation,Points,GridPosition,Race,Round,Year
+Ferrari,1.0,HAM,25.0,2.0,Spanish Grand Prix,7,2026
+Mercedes,2.0,RUS,18.0,1.0,Spanish Grand Prix,7,2026
+McLaren,3.0,NOR,15.0,4.0,Spanish Grand Prix,7,2026
+Red Bull,4.0,VER,12.0,5.0,Spanish Grand Prix,7,2026
+McLaren,5.0,PIA,10.0,7.0,Spanish Grand Prix,7,2026
+Red Bull,6.0,HAD,8.0,6.0,Spanish Grand Prix,7,2026
+Alpine F1 Team,7.0,GAS,6.0,14.0,Spanish Grand Prix,7,2026
+RB F1 Team,8.0,LAW,4.0,8.0,Spanish Grand Prix,7,2026
+RB F1 Team,9.0,LIN,2.0,11.0,Spanish Grand Prix,7,2026
+Alpine F1 Team,10.0,COL,1.0,13.0,Spanish Grand Prix,7,2026
+Audi,11.0,BOR,0.0,12.0,Spanish Grand Prix,7,2026
+Williams,12.0,SAI,0.0,16.0,Spanish Grand Prix,7,2026
+Haas F1 Team,13.0,OCO,0.0,17.0,Spanish Grand Prix,7,2026
+Cadillac F1 Team,14.0,PER,0.0,19.0,Spanish Grand Prix,7,2026
+Ferrari,15.0,LEC,0.0,10.0,Spanish Grand Prix,7,2026
+Mercedes,16.0,ANT,0.0,3.0,Spanish Grand Prix,7,2026
+Haas F1 Team,17.0,BEA,0.0,15.0,Spanish Grand Prix,7,2026
+Williams,18.0,ALB,0.0,18.0,Spanish Grand Prix,7,2026
+Aston Martin,19.0,ALO,0.0,22.0,Spanish Grand Prix,7,2026
+Audi,20.0,HUL,0.0,9.0,Spanish Grand Prix,7,2026
+Cadillac F1 Team,21.0,BOT,0.0,20.0,Spanish Grand Prix,7,2026
+Aston Martin,22.0,STR,0.0,21.0,Spanish Grand Prix,7,2026

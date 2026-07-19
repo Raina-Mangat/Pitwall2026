@@ -1,23 +1,23 @@
-GridPosition,Position,Abbreviation,Points,TeamName,Race,Round,Year
-1.0,1.0,ANT,25.0,Mercedes,Monaco Grand Prix,6,2026
-3.0,2.0,HAM,18.0,Ferrari,Monaco Grand Prix,6,2026
-9.0,3.0,GAS,15.0,Alpine,Monaco Grand Prix,6,2026
-5.0,4.0,HAD,12.0,Red Bull Racing,Monaco Grand Prix,6,2026
-7.0,5.0,PIA,10.0,McLaren,Monaco Grand Prix,6,2026
-10.0,6.0,LAW,8.0,Racing Bulls,Monaco Grand Prix,6,2026
-15.0,7.0,LIN,6.0,Racing Bulls,Monaco Grand Prix,6,2026
-11.0,8.0,ALB,4.0,Williams,Monaco Grand Prix,6,2026
-17.0,9.0,OCO,2.0,Haas F1 Team,Monaco Grand Prix,6,2026
-21.0,10.0,ALO,1.0,Aston Martin,Monaco Grand Prix,6,2026
-16.0,11.0,BOR,0.0,Audi,Monaco Grand Prix,6,2026
-6.0,12.0,RUS,0.0,Mercedes,Monaco Grand Prix,6,2026
-13.0,13.0,HUL,0.0,Audi,Monaco Grand Prix,6,2026
-14.0,14.0,COL,0.0,Alpine,Monaco Grand Prix,6,2026
-18.0,15.0,PER,0.0,Cadillac,Monaco Grand Prix,6,2026
-12.0,16.0,SAI,0.0,Williams,Monaco Grand Prix,6,2026
-4.0,17.0,LEC,0.0,Ferrari,Monaco Grand Prix,6,2026
-22.0,18.0,STR,0.0,Aston Martin,Monaco Grand Prix,6,2026
-8.0,19.0,NOR,0.0,McLaren,Monaco Grand Prix,6,2026
-19.0,20.0,BEA,0.0,Haas F1 Team,Monaco Grand Prix,6,2026
-20.0,21.0,BOT,0.0,Cadillac,Monaco Grand Prix,6,2026
-2.0,22.0,VER,0.0,Red Bull Racing,Monaco Grand Prix,6,2026
+TeamName,Position,Abbreviation,Points,GridPosition,Race,Round,Year
+Mercedes,1.0,ANT,25.0,1.0,Monaco Grand Prix,6,2026
+Ferrari,2.0,HAM,18.0,3.0,Monaco Grand Prix,6,2026
+Alpine F1 Team,3.0,GAS,15.0,9.0,Monaco Grand Prix,6,2026
+Red Bull,4.0,HAD,12.0,5.0,Monaco Grand Prix,6,2026
+McLaren,5.0,PIA,10.0,7.0,Monaco Grand Prix,6,2026
+RB F1 Team,6.0,LAW,8.0,10.0,Monaco Grand Prix,6,2026
+RB F1 Team,7.0,LIN,6.0,15.0,Monaco Grand Prix,6,2026
+Williams,8.0,ALB,4.0,11.0,Monaco Grand Prix,6,2026
+Haas F1 Team,9.0,OCO,2.0,17.0,Monaco Grand Prix,6,2026
+Aston Martin,10.0,ALO,1.0,21.0,Monaco Grand Prix,6,2026
+Audi,11.0,BOR,0.0,16.0,Monaco Grand Prix,6,2026
+Mercedes,12.0,RUS,0.0,6.0,Monaco Grand Prix,6,2026
+Audi,13.0,HUL,0.0,13.0,Monaco Grand Prix,6,2026
+Alpine F1 Team,14.0,COL,0.0,14.0,Monaco Grand Prix,6,2026
+Cadillac F1 Team,15.0,PER,0.0,18.0,Monaco Grand Prix,6,2026
+Williams,16.0,SAI,0.0,12.0,Monaco Grand Prix,6,2026
+Ferrari,17.0,LEC,0.0,4.0,Monaco Grand Prix,6,2026
+Aston Martin,18.0,STR,0.0,22.0,Monaco Grand Prix,6,2026
+McLaren,19.0,NOR,0.0,8.0,Monaco Grand Prix,6,2026
+Haas F1 Team,20.0,BEA,0.0,19.0,Monaco Grand Prix,6,2026
+Cadillac F1 Team,21.0,BOT,0.0,20.0,Monaco Grand Prix,6,2026
+Red Bull,22.0,VER,0.0,2.0,Monaco Grand Prix,6,2026

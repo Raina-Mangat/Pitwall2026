@@ -1,23 +1,23 @@
-GridPosition,Position,Abbreviation,Points,TeamName,Race,Round,Year
-1.0,1.0,ANT,25.0,Mercedes,Japanese Grand Prix,3,2026
-3.0,2.0,PIA,18.0,McLaren,Japanese Grand Prix,3,2026
-4.0,3.0,LEC,15.0,Ferrari,Japanese Grand Prix,3,2026
-2.0,4.0,RUS,12.0,Mercedes,Japanese Grand Prix,3,2026
-5.0,5.0,NOR,10.0,McLaren,Japanese Grand Prix,3,2026
-6.0,6.0,HAM,8.0,Ferrari,Japanese Grand Prix,3,2026
-7.0,7.0,GAS,6.0,Alpine,Japanese Grand Prix,3,2026
-11.0,8.0,VER,4.0,Red Bull Racing,Japanese Grand Prix,3,2026
-14.0,9.0,LAW,2.0,Racing Bulls,Japanese Grand Prix,3,2026
-12.0,10.0,OCO,1.0,Haas F1 Team,Japanese Grand Prix,3,2026
-13.0,11.0,HUL,0.0,Audi,Japanese Grand Prix,3,2026
-8.0,12.0,HAD,0.0,Red Bull Racing,Japanese Grand Prix,3,2026
-9.0,13.0,BOR,0.0,Audi,Japanese Grand Prix,3,2026
-10.0,14.0,LIN,0.0,Racing Bulls,Japanese Grand Prix,3,2026
-16.0,15.0,SAI,0.0,Williams,Japanese Grand Prix,3,2026
-15.0,16.0,COL,0.0,Alpine,Japanese Grand Prix,3,2026
-19.0,17.0,PER,0.0,Cadillac,Japanese Grand Prix,3,2026
-21.0,18.0,ALO,0.0,Aston Martin,Japanese Grand Prix,3,2026
-20.0,19.0,BOT,0.0,Cadillac,Japanese Grand Prix,3,2026
-17.0,20.0,ALB,0.0,Williams,Japanese Grand Prix,3,2026
-22.0,21.0,STR,0.0,Aston Martin,Japanese Grand Prix,3,2026
-18.0,22.0,BEA,0.0,Haas F1 Team,Japanese Grand Prix,3,2026
+TeamName,Position,Abbreviation,Points,GridPosition,Race,Round,Year
+Mercedes,1.0,ANT,25.0,1.0,Japanese Grand Prix,3,2026
+McLaren,2.0,PIA,18.0,3.0,Japanese Grand Prix,3,2026
+Ferrari,3.0,LEC,15.0,4.0,Japanese Grand Prix,3,2026
+Mercedes,4.0,RUS,12.0,2.0,Japanese Grand Prix,3,2026
+McLaren,5.0,NOR,10.0,5.0,Japanese Grand Prix,3,2026
+Ferrari,6.0,HAM,8.0,6.0,Japanese Grand Prix,3,2026
+Alpine F1 Team,7.0,GAS,6.0,7.0,Japanese Grand Prix,3,2026
+Red Bull,8.0,VER,4.0,11.0,Japanese Grand Prix,3,2026
+RB F1 Team,9.0,LAW,2.0,14.0,Japanese Grand Prix,3,2026
+Haas F1 Team,10.0,OCO,1.0,12.0,Japanese Grand Prix,3,2026
+Audi,11.0,HUL,0.0,13.0,Japanese Grand Prix,3,2026
+Red Bull,12.0,HAD,0.0,8.0,Japanese Grand Prix,3,2026
+Audi,13.0,BOR,0.0,9.0,Japanese Grand Prix,3,2026
+RB F1 Team,14.0,LIN,0.0,10.0,Japanese Grand Prix,3,2026
+Williams,15.0,SAI,0.0,16.0,Japanese Grand Prix,3,2026
+Alpine F1 Team,16.0,COL,0.0,15.0,Japanese Grand Prix,3,2026
+Cadillac F1 Team,17.0,PER,0.0,19.0,Japanese Grand Prix,3,2026
+Aston Martin,18.0,ALO,0.0,21.0,Japanese Grand Prix,3,2026
+Cadillac F1 Team,19.0,BOT,0.0,20.0,Japanese Grand Prix,3,2026
+Williams,20.0,ALB,0.0,17.0,Japanese Grand Prix,3,2026
+Aston Martin,21.0,STR,0.0,22.0,Japanese Grand Prix,3,2026
+Haas F1 Team,22.0,BEA,0.0,18.0,Japanese Grand Prix,3,2026

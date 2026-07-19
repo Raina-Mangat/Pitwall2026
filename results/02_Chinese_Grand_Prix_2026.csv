@@ -1,23 +1,23 @@
-GridPosition,Position,Abbreviation,Points,TeamName,Race,Round,Year
-1.0,1.0,ANT,25.0,Mercedes,Chinese Grand Prix,2,2026
-2.0,2.0,RUS,18.0,Mercedes,Chinese Grand Prix,2,2026
-3.0,3.0,HAM,15.0,Ferrari,Chinese Grand Prix,2,2026
-4.0,4.0,LEC,12.0,Ferrari,Chinese Grand Prix,2,2026
-10.0,5.0,BEA,10.0,Haas F1 Team,Chinese Grand Prix,2,2026
-7.0,6.0,GAS,8.0,Alpine,Chinese Grand Prix,2,2026
-14.0,7.0,LAW,6.0,Racing Bulls,Chinese Grand Prix,2,2026
-9.0,8.0,HAD,4.0,Red Bull Racing,Chinese Grand Prix,2,2026
-17.0,9.0,SAI,2.0,Williams,Chinese Grand Prix,2,2026
-12.0,10.0,COL,1.0,Alpine,Chinese Grand Prix,2,2026
-11.0,11.0,HUL,0.0,Audi,Chinese Grand Prix,2,2026
-15.0,12.0,LIN,0.0,Racing Bulls,Chinese Grand Prix,2,2026
-19.0,13.0,BOT,0.0,Cadillac,Chinese Grand Prix,2,2026
-13.0,14.0,OCO,0.0,Haas F1 Team,Chinese Grand Prix,2,2026
-21.0,15.0,PER,0.0,Cadillac,Chinese Grand Prix,2,2026
-8.0,16.0,VER,0.0,Red Bull Racing,Chinese Grand Prix,2,2026
-18.0,17.0,ALO,0.0,Aston Martin,Chinese Grand Prix,2,2026
-20.0,18.0,STR,0.0,Aston Martin,Chinese Grand Prix,2,2026
-5.0,19.0,PIA,0.0,McLaren,Chinese Grand Prix,2,2026
-6.0,20.0,NOR,0.0,McLaren,Chinese Grand Prix,2,2026
-16.0,21.0,BOR,0.0,Audi,Chinese Grand Prix,2,2026
-22.0,22.0,ALB,0.0,Williams,Chinese Grand Prix,2,2026
+TeamName,Position,Abbreviation,Points,GridPosition,Race,Round,Year
+Mercedes,1.0,ANT,25.0,1.0,Chinese Grand Prix,2,2026
+Mercedes,2.0,RUS,18.0,2.0,Chinese Grand Prix,2,2026
+Ferrari,3.0,HAM,15.0,3.0,Chinese Grand Prix,2,2026
+Ferrari,4.0,LEC,12.0,4.0,Chinese Grand Prix,2,2026
+Haas F1 Team,5.0,BEA,10.0,10.0,Chinese Grand Prix,2,2026
+Alpine F1 Team,6.0,GAS,8.0,7.0,Chinese Grand Prix,2,2026
+RB F1 Team,7.0,LAW,6.0,14.0,Chinese Grand Prix,2,2026
+Red Bull,8.0,HAD,4.0,9.0,Chinese Grand Prix,2,2026
+Williams,9.0,SAI,2.0,17.0,Chinese Grand Prix,2,2026
+Alpine F1 Team,10.0,COL,1.0,12.0,Chinese Grand Prix,2,2026
+Audi,11.0,HUL,0.0,11.0,Chinese Grand Prix,2,2026
+RB F1 Team,12.0,LIN,0.0,15.0,Chinese Grand Prix,2,2026
+Cadillac F1 Team,13.0,BOT,0.0,19.0,Chinese Grand Prix,2,2026
+Haas F1 Team,14.0,OCO,0.0,13.0,Chinese Grand Prix,2,2026
+Cadillac F1 Team,15.0,PER,0.0,21.0,Chinese Grand Prix,2,2026
+Red Bull,16.0,VER,0.0,8.0,Chinese Grand Prix,2,2026
+Aston Martin,17.0,ALO,0.0,18.0,Chinese Grand Prix,2,2026
+Aston Martin,18.0,STR,0.0,20.0,Chinese Grand Prix,2,2026
+McLaren,19.0,PIA,0.0,5.0,Chinese Grand Prix,2,2026
+McLaren,20.0,NOR,0.0,6.0,Chinese Grand Prix,2,2026
+Audi,21.0,BOR,0.0,16.0,Chinese Grand Prix,2,2026
+Williams,22.0,ALB,0.0,22.0,Chinese Grand Prix,2,2026
