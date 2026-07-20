@@ -78,102 +78,9 @@ function CircuitDiagram({ location, size = 70 }) {
   );
 }
 
-function DriversChampionship() {
-  const standings = [
-    { driver: 'ANT', team: 'Mercedes',        points: 188 },
-    { driver: 'HAM', team: 'Ferrari',          points: 133 },
-    { driver: 'RUS', team: 'Mercedes',         points: 126 },
-    { driver: 'LEC', team: 'Ferrari',          points: 93  },
-    { driver: 'NOR', team: 'McLaren',          points: 86  },
-    { driver: 'PIA', team: 'McLaren',          points: 77  },
-    { driver: 'VER', team: 'Red Bull Racing',  points: 62  },
-    { driver: 'GAS', team: 'Alpine',           points: 48  },
-    { driver: 'HAD', team: 'Red Bull Racing',  points: 40  },
-    { driver: 'LAW', team: 'Racing Bulls',     points: 32  },
-    { driver: 'BEA', team: 'Haas F1 Team',     points: 22  },
-    { driver: 'COL', team: 'Alpine',           points: 18  },
-  ];
 
-  const max = standings[0].points;
+  
 
-  return (
-    <div className="card" style={{ marginBottom: 32 }}>
-      <div style={{
-        display: 'flex', justifyContent: 'space-between',
-        alignItems: 'center', marginBottom: 20,
-      }}>
-        <div className="card-label" style={{ marginBottom: 0 }}>
-          DRIVERS CHAMPIONSHIP · 2026
-        </div>
-        <div style={{
-          fontFamily: 'JetBrains Mono, monospace',
-          fontSize: 9, color: '#2a2a2a', letterSpacing: '1px',
-        }}>
-          AFTER ROUND 9 · BRITISH GP
-        </div>
-      </div>
-
-      <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-        {standings.map((s, i) => {
-          const color = TEAM_COLORS[s.team] || '#666';
-          const pct   = (s.points / max) * 100;
-          return (
-            <motion.div
-              key={s.driver}
-              initial={{ opacity: 0, x: -20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: i * 0.05 }}
-              style={{
-                display: 'grid',
-                gridTemplateColumns: '28px 48px 1fr 56px',
-                alignItems: 'center',
-                gap: 10,
-              }}
-            >
-              <div style={{
-                fontFamily: 'JetBrains Mono, monospace',
-                fontSize: 11,
-                color: i < 3 ? color : '#2a2a2a',
-                textAlign: 'right',
-              }}>
-                {i + 1}
-              </div>
-              <div style={{
-                fontFamily: 'Barlow Condensed, sans-serif',
-                fontSize: 16, fontWeight: 800,
-                color: color, letterSpacing: 1,
-              }}>
-                {s.driver}
-              </div>
-              <div style={{
-                height: 8, background: '#0a0a0c',
-                borderRadius: 4, overflow: 'hidden',
-              }}>
-                <motion.div
-                  initial={{ width: 0 }}
-                  animate={{ width: `${pct}%` }}
-                  transition={{ delay: i * 0.05 + 0.4, duration: 0.7, ease: 'easeOut' }}
-                  style={{
-                    height: '100%',
-                    background: `linear-gradient(90deg,${color}55,${color})`,
-                    borderRadius: 4,
-                  }}
-                />
-              </div>
-              <div style={{
-                fontFamily: 'JetBrains Mono, monospace',
-                fontSize: 14, fontWeight: 700,
-                color: '#fff', textAlign: 'right',
-              }}>
-                {s.points}
-              </div>
-            </motion.div>
-          );
-        })}
-      </div>
-    </div>
-  );
-}
 
 export default function Season() {
   const [races,   setRaces]   = useState([]);
@@ -199,12 +106,10 @@ export default function Season() {
   <div className="page-eyebrow">2026 FORMULA 1 SEASON</div>
   <h1 className="page-title">Season Calendar</h1>
 
-  <p className="page-subtitle">
-    {completed} races completed
-  </p>
+  
 </div>
 
-      <DriversChampionship />
+      
 
       <div style={{
         display: 'grid',

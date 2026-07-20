@@ -5,7 +5,7 @@ import {
 } from 'recharts';
 import axios from 'axios';
 
-import ChampionshipRace from '../components/ChampionshipRace';
+
 
 const BASE = "https://pitwall2026.onrender.com";
 
@@ -855,12 +855,6 @@ console.log("Type:", typeof drivers[0]?.RealGrid);
       </div>
 
       
-
-      {/* ── CHAMPIONSHIP RACE ── */}
-      <div style={{ padding: '0 24px 24px' }}>
-        <ChampionshipRace />
-      </div>
-
-    </div>
+    #</div>
   );
 }
