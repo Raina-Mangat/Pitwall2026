@@ -4,7 +4,7 @@ import {
   LineChart, Line, ResponsiveContainer, YAxis
 } from 'recharts';
 import axios from 'axios';
-import CircuitDNA from '../components/CircuitDNA';
+
 import ChampionshipRace from '../components/ChampionshipRace';
 
 const BASE = "https://pitwall2026.onrender.com";
@@ -854,13 +854,7 @@ console.log("Type:", typeof drivers[0]?.RealGrid);
         </div>
       </div>
 
-      {/* ── CIRCUIT DNA ── */}
-      <div style={{ padding: '24px 24px 0' }}>
-        <CircuitDNA location={
-          data?.drivers?.[0]?.Circuit ||
-          'Spa-Francorchamps'
-        } />
-      </div>
+      
 
       {/* ── CHAMPIONSHIP RACE ── */}
       <div style={{ padding: '0 24px 24px' }}>

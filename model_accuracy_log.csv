@@ -9,4 +9,4 @@ Spanish Grand Prix,7,2026,ANT,HAM,False,2,"{'ANT', 'RUS', 'HAM'}","{'NOR', 'RUS'
 Austrian Grand Prix,8,2026,RUS,RUS,True,2,"{'ANT', 'RUS', 'LEC'}","{'ANT', 'RUS', 'VER'}"
 British Grand Prix,9,2026,ANT,LEC,False,1,"{'LEC', 'ANT', 'VER'}","{'HAM', 'LEC', 'RUS'}"
 Belgian Grand Prix,10,2026,ANT,ANT,True,1,"{'ANT', 'NOR', 'RUS'}","{'ANT', 'LEC', 'VER'}"
-Belgian Grand Prix,10,2026,ANT,ANT,True,1,"{'NOR', 'ANT', 'RUS'}","{'ANT', 'VER', 'LEC'}"
+Belgian Grand Prix,10,2026,ANT,ANT,True,1,"{'RUS', 'NOR', 'ANT'}","{'VER', 'ANT', 'LEC'}"
