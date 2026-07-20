@@ -369,10 +369,19 @@ app.get('/api/calendar', (req, res) => {
       ? readCSV(paths.accuracyLog) : [];
 
     const races = predFiles.map(f => {
+      const uniqueRaces = Array.from(
+  new Map(
+    races.map(r => [`${r.round}-${r.year}`, r])
+  ).values()
+);
       const parts    = f.replace('.csv','').split('_');
       const round    = parseInt(parts[0]);
       const year     = parseInt(parts[parts.length - 1]);
-      const raceName = parts.slice(1,-1).join(' ');
+      let raceName = parts.slice(1, -1).join(' ');
+
+if (raceName === "Barcelona Grand Prix") {
+  raceName = "Spanish Grand Prix";
+}
       const roundStr = String(round).padStart(2,'0');
 
       const resultFile = resultFiles.find(r => r.startsWith(roundStr + '_'));
