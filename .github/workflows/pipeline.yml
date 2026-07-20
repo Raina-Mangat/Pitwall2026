@@ -2,7 +2,7 @@ name: PitWall Automation
 
 on:
   schedule:
-    - cron: "0 */6 * * *"   # every 6 hours
+    - cron: "0 */6 * * *"   # Every 6 hours
   workflow_dispatch:
 
 permissions:
@@ -34,14 +34,12 @@ jobs:
           path: ~/.cache/fastf1
           key: fastf1-${{ runner.os }}
 
-      - name: Create cache directory
+      - name: Create FastF1 cache directory
         run: mkdir -p ~/.cache/fastf1
 
-      # Generate prediction for the next race
       - name: Run prediction pipeline
         run: python pipeline.py
 
-      # Update completed races, results and accuracy
       - name: Run backfill
         run: python backfill.py
 
@@ -55,12 +53,16 @@ jobs:
           git add all_predictions_log.csv
           git add model_accuracy_log.csv
 
-          git diff --cached --quiet || (
+          if ! git diff --cached --quiet; then
             git commit -m "🤖 Automated race update"
             git push
-          )
-                - name: Trigger Render Deploy
+          else
+            echo "No changes to commit."
+          fi
+
+      - name: Trigger Render Deploy
         if: success()
-        run: curl -X POST "$RENDER_DEPLOY_HOOK"
         env:
           RENDER_DEPLOY_HOOK: ${{ secrets.RENDER_DEPLOY_HOOK }}
+        run: |
+          curl -X POST "$RENDER_DEPLOY_HOOK"
