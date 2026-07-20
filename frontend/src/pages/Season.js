@@ -4,19 +4,6 @@ import axios from 'axios';
 
 const BASE = "https://pitwall2026.onrender.com";
 
-const TEAM_COLORS = {
-  'Mercedes':        '#00D2BE',
-  'Ferrari':         '#E8002D',
-  'McLaren':         '#FF8000',
-  'Red Bull Racing': '#3671C6',
-  'Alpine':          '#0090FF',
-  'Aston Martin':    '#358C75',
-  'Williams':        '#64C4FF',
-  'Haas F1 Team':    '#B6BABD',
-  'Audi':            '#C0392B',
-  'Cadillac':        '#DDDDDD',
-  'Racing Bulls':    '#6692FF',
-};
 
 const RACE_CALENDAR = {
   1:  { date: 'Mar 08', city: 'Melbourne' },
@@ -97,7 +84,6 @@ export default function Season() {
   if (loading) return <div className="loading">LOADING SEASON...</div>;
   if (error)   return <div className="page"><div className="error-msg">{error}</div></div>;
 
-  const completed = races.filter(r => r.hasResult).length;
   
 
   return (
