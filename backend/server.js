@@ -369,11 +369,7 @@ app.get('/api/calendar', (req, res) => {
       ? readCSV(paths.accuracyLog) : [];
 
     const races = predFiles.map(f => {
-      const uniqueRaces = Array.from(
-  new Map(
-    races.map(r => [`${r.round}-${r.year}`, r])
-  ).values()
-);
+      
       const parts    = f.replace('.csv','').split('_');
       const round    = parseInt(parts[0]);
       const year     = parseInt(parts[parts.length - 1]);
@@ -391,6 +387,7 @@ if (raceName === "Barcelona Grand Prix") {
     parseInt(a.Year) === year &&
     a.Race.trim() === raceName.trim()
 );
+
       
       let predictedWinner = null;
       let actualWinner    = null;
@@ -421,8 +418,14 @@ if (raceName === "Barcelona Grand Prix") {
         winnerCorrect,   podiumOverlap,
       };
     });
+    const uniqueRaces = Array.from(
+  new Map(
+    races.map(r => [`${r.round}-${r.year}`, r])
+  ).values()
+);
+res.json({ races: uniqueRaces });
 
-    res.json({ races, total: races.length });
+    //res.json({ races, total: races.length });
 
   } catch (err) {
     res.status(500).json({ error: err.message });
