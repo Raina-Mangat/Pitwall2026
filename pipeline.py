@@ -164,8 +164,9 @@ def get_qualifying_grid(race_info, df):
         quali = fastf1.get_session(
             race_info['year'], race_info['round'], 'Q'
         )
-        quali.load(telemetry=False, weather=False, messages=False)
-
+        quali.load(telemetry=False, weather=False, messages=True)
+        print("\n===== FASTF1 RESULTS =====")
+        print(quali.results[["Abbreviation", "Position", "TeamName"]].to_string())
         # Guard: quali.results could be empty or missing columns
         if quali.results is None or len(quali.results) == 0:
             raise ValueError("Qualifying results DataFrame is empty")
@@ -181,6 +182,14 @@ def get_qualifying_grid(race_info, df):
             .sort_values('GridPosition')
             .reset_index(drop=True)
         )
+        print("\n=== REAL QUALIFYING GRID ===")
+        print("\n===== GRID AFTER BUILD =====")
+        print(grid.to_string())
+        print()
+        print("Length:", len(grid))
+        print("Columns:", grid.columns.tolist())
+        print("Dtypes:")
+        print(grid.dtypes)
 
         # Guard: after dropping NaN, could still be empty
         if len(grid) == 0:
@@ -199,7 +208,10 @@ def get_qualifying_grid(race_info, df):
         return grid, True
 
     except Exception as e:
-        print(f"Qualifying not available yet ({e})")
+        import traceback
+        print("\n===== QUALIFYING ERROR =====")
+        traceback.print_exc()
+        print("============================\n")
         return make_fallback_grid(df, race_info)
 
 
