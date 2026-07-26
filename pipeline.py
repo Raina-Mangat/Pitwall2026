@@ -573,6 +573,13 @@ def compare_prediction_vs_result(race_info):
 
     pred   = pd.read_csv(pred_file)
     actual = pd.read_csv(result_file)
+    if actual.empty:
+        print("Cannot compare - result file is empty")
+        return
+
+    if actual["Position"].isna().all():
+         print("Cannot compare - official result not available yet")
+         return
 
     # Guard: prediction file could be empty
     if len(pred) == 0:
@@ -583,6 +590,9 @@ def compare_prediction_vs_result(race_info):
     actual_podium_rows = actual[actual['Position'] <= 3]
     if len(actual_podium_rows) == 0:
         print("Cannot compare — no finishers in result file yet (race may not be done)")
+        return
+    if actual_podium_rows["Abbreviation"].isna().any():
+        print("Cannot compare - podium incomplete")
         return
 
     # Guard: winner row might not exist
