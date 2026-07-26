@@ -578,8 +578,8 @@ def compare_prediction_vs_result(race_info):
         return
 
     if actual["Position"].isna().all():
-         print("Cannot compare - official result not available yet")
-         return
+        print("Cannot compare - official result not available yet")
+        return
 
     # Guard: prediction file could be empty
     if len(pred) == 0:
@@ -629,11 +629,29 @@ def compare_prediction_vs_result(race_info):
         'ActualPodium':    str(actual_top3),
     }])
 
-    acc_file = 'model_accuracy_log.csv'
+    acc_file = "model_accuracy_log.csv"
+
     if os.path.exists(acc_file):
-        accuracy_row.to_csv(acc_file, mode='a', header=False, index=False)
+        history = pd.read_csv(acc_file)
+
+        # Remove any previous entry for this race
+        history = history[
+            ~(
+                (history["Round"] == race_info["round"]) &
+                (history["Year"] == race_info["year"])
+            )
+        ]
+
+        # Add newest result
+        history = pd.concat([history, accuracy_row], ignore_index=True)
+
+        # Keep races ordered
+        history = history.sort_values(["Year", "Round"])
+
+        history.to_csv(acc_file, index=False)
     else:
-        accuracy_row.to_csv(acc_file, mode='w', header=True, index=False)
+        accuracy_row.to_csv(acc_file, index=False)
+
     print(f"Accuracy logged to {acc_file}")
 
 
