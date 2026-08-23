@@ -1,1 +1,23 @@
-Abbreviation,TeamName,GridPosition,Position,Points,Race,Round,Year
+Points,Abbreviation,TeamName,Position,GridPosition,Race,Round,Year
+25.0,NOR,McLaren,1.0,1.0,Dutch Grand Prix,12,2026
+18.0,ANT,Mercedes,2.0,3.0,Dutch Grand Prix,12,2026
+15.0,RUS,Mercedes,3.0,2.0,Dutch Grand Prix,12,2026
+12.0,HAM,Ferrari,4.0,5.0,Dutch Grand Prix,12,2026
+10.0,LEC,Ferrari,5.0,6.0,Dutch Grand Prix,12,2026
+8.0,PIA,McLaren,6.0,4.0,Dutch Grand Prix,12,2026
+6.0,LAW,Red Bull,7.0,8.0,Dutch Grand Prix,12,2026
+4.0,HUL,Audi,8.0,13.0,Dutch Grand Prix,12,2026
+2.0,ALO,Aston Martin,9.0,18.0,Dutch Grand Prix,12,2026
+1.0,GAS,Alpine F1 Team,10.0,11.0,Dutch Grand Prix,12,2026
+0.0,TSU,RB F1 Team,11.0,12.0,Dutch Grand Prix,12,2026
+0.0,LIN,RB F1 Team,12.0,10.0,Dutch Grand Prix,12,2026
+0.0,BOR,Audi,13.0,9.0,Dutch Grand Prix,12,2026
+0.0,COL,Alpine F1 Team,14.0,14.0,Dutch Grand Prix,12,2026
+0.0,PER,Cadillac F1 Team,15.0,22.0,Dutch Grand Prix,12,2026
+0.0,SAI,Williams,16.0,17.0,Dutch Grand Prix,12,2026
+0.0,ALB,Williams,17.0,16.0,Dutch Grand Prix,12,2026
+0.0,BOT,Cadillac F1 Team,18.0,21.0,Dutch Grand Prix,12,2026
+0.0,OCO,Haas F1 Team,19.0,15.0,Dutch Grand Prix,12,2026
+0.0,STR,Aston Martin,20.0,19.0,Dutch Grand Prix,12,2026
+0.0,BEA,Haas F1 Team,21.0,20.0,Dutch Grand Prix,12,2026
+0.0,VER,Red Bull,22.0,7.0,Dutch Grand Prix,12,2026
