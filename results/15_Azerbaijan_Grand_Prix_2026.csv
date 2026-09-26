@@ -1,23 +1,23 @@
-GridPosition,TeamName,Abbreviation,Points,Position,Race,Round,Year
--1.0,Mercedes,RUS,25.0,1.0,Azerbaijan Grand Prix,15,2026
--1.0,Red Bull,VER,18.0,2.0,Azerbaijan Grand Prix,15,2026
--1.0,Red Bull,HAD,15.0,3.0,Azerbaijan Grand Prix,15,2026
--1.0,Ferrari,LEC,12.0,4.0,Azerbaijan Grand Prix,15,2026
--1.0,Mercedes,ANT,10.0,5.0,Azerbaijan Grand Prix,15,2026
--1.0,Ferrari,HAM,8.0,6.0,Azerbaijan Grand Prix,15,2026
--1.0,RB F1 Team,LIN,6.0,7.0,Azerbaijan Grand Prix,15,2026
--1.0,Haas F1 Team,OCO,4.0,8.0,Azerbaijan Grand Prix,15,2026
--1.0,Haas F1 Team,BEA,2.0,9.0,Azerbaijan Grand Prix,15,2026
--1.0,Williams,SAI,1.0,10.0,Azerbaijan Grand Prix,15,2026
--1.0,Audi,HUL,0.0,11.0,Azerbaijan Grand Prix,15,2026
--1.0,RB F1 Team,LAW,0.0,12.0,Azerbaijan Grand Prix,15,2026
--1.0,Audi,BOR,0.0,13.0,Azerbaijan Grand Prix,15,2026
--1.0,McLaren,PIA,0.0,14.0,Azerbaijan Grand Prix,15,2026
--1.0,Cadillac F1 Team,PER,0.0,15.0,Azerbaijan Grand Prix,15,2026
--1.0,Cadillac F1 Team,BOT,0.0,16.0,Azerbaijan Grand Prix,15,2026
--1.0,Alpine F1 Team,COL,0.0,17.0,Azerbaijan Grand Prix,15,2026
--1.0,Alpine F1 Team,GAS,0.0,18.0,Azerbaijan Grand Prix,15,2026
--1.0,McLaren,NOR,0.0,19.0,Azerbaijan Grand Prix,15,2026
--1.0,Williams,ALB,0.0,20.0,Azerbaijan Grand Prix,15,2026
--1.0,Aston Martin,ALO,0.0,21.0,Azerbaijan Grand Prix,15,2026
--1.0,Aston Martin,STR,0.0,22.0,Azerbaijan Grand Prix,15,2026
+Points,Position,GridPosition,TeamName,Abbreviation,Race,Round,Year
+25.0,1.0,1.0,Mercedes,RUS,Azerbaijan Grand Prix,15,2026
+18.0,2.0,8.0,Red Bull,VER,Azerbaijan Grand Prix,15,2026
+15.0,3.0,4.0,Red Bull,HAD,Azerbaijan Grand Prix,15,2026
+12.0,4.0,2.0,Ferrari,LEC,Azerbaijan Grand Prix,15,2026
+10.0,5.0,16.0,Mercedes,ANT,Azerbaijan Grand Prix,15,2026
+8.0,6.0,6.0,Ferrari,HAM,Azerbaijan Grand Prix,15,2026
+6.0,7.0,15.0,RB F1 Team,LIN,Azerbaijan Grand Prix,15,2026
+4.0,8.0,13.0,Haas F1 Team,OCO,Azerbaijan Grand Prix,15,2026
+2.0,9.0,10.0,Haas F1 Team,BEA,Azerbaijan Grand Prix,15,2026
+1.0,10.0,14.0,Williams,SAI,Azerbaijan Grand Prix,15,2026
+0.0,11.0,18.0,Audi,HUL,Azerbaijan Grand Prix,15,2026
+0.0,12.0,11.0,RB F1 Team,LAW,Azerbaijan Grand Prix,15,2026
+0.0,13.0,3.0,McLaren,PIA,Azerbaijan Grand Prix,15,2026
+0.0,14.0,20.0,Cadillac F1 Team,PER,Azerbaijan Grand Prix,15,2026
+0.0,15.0,17.0,Audi,BOR,Azerbaijan Grand Prix,15,2026
+0.0,16.0,19.0,Cadillac F1 Team,BOT,Azerbaijan Grand Prix,15,2026
+0.0,17.0,9.0,Alpine F1 Team,COL,Azerbaijan Grand Prix,15,2026
+0.0,18.0,7.0,Alpine F1 Team,GAS,Azerbaijan Grand Prix,15,2026
+0.0,19.0,5.0,McLaren,NOR,Azerbaijan Grand Prix,15,2026
+0.0,20.0,12.0,Williams,ALB,Azerbaijan Grand Prix,15,2026
+0.0,21.0,21.0,Aston Martin,ALO,Azerbaijan Grand Prix,15,2026
+0.0,22.0,22.0,Aston Martin,STR,Azerbaijan Grand Prix,15,2026
