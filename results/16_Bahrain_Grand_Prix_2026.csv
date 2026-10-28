@@ -1,23 +1,23 @@
-Abbreviation,Position,GridPosition,TeamName,Points,Race,Round,Year
-VER,1.0,1.0,Red Bull,25.0,Bahrain Grand Prix,16,2026
-ANT,2.0,3.0,Mercedes,18.0,Bahrain Grand Prix,16,2026
-HAM,3.0,2.0,Ferrari,15.0,Bahrain Grand Prix,16,2026
-LEC,4.0,4.0,Ferrari,12.0,Bahrain Grand Prix,16,2026
-HAD,5.0,8.0,Red Bull,10.0,Bahrain Grand Prix,16,2026
-PIA,6.0,6.0,McLaren,8.0,Bahrain Grand Prix,16,2026
-LAW,7.0,11.0,RB F1 Team,6.0,Bahrain Grand Prix,16,2026
-ALO,8.0,12.0,Aston Martin,4.0,Bahrain Grand Prix,16,2026
-NOR,9.0,5.0,McLaren,2.0,Bahrain Grand Prix,16,2026
-LIN,10.0,22.0,RB F1 Team,1.0,Bahrain Grand Prix,16,2026
-HUL,11.0,15.0,Audi,0.0,Bahrain Grand Prix,16,2026
-STR,12.0,14.0,Aston Martin,0.0,Bahrain Grand Prix,16,2026
-COL,13.0,21.0,Alpine F1 Team,0.0,Bahrain Grand Prix,16,2026
-BEA,14.0,16.0,Haas F1 Team,0.0,Bahrain Grand Prix,16,2026
-OCO,15.0,17.0,Haas F1 Team,0.0,Bahrain Grand Prix,16,2026
-GAS,16.0,9.0,Alpine F1 Team,0.0,Bahrain Grand Prix,16,2026
-SAI,17.0,13.0,Williams,0.0,Bahrain Grand Prix,16,2026
-BOR,18.0,10.0,Audi,0.0,Bahrain Grand Prix,16,2026
-PER,19.0,20.0,Cadillac F1 Team,0.0,Bahrain Grand Prix,16,2026
-RUS,20.0,7.0,Mercedes,0.0,Bahrain Grand Prix,16,2026
-ALB,21.0,18.0,Williams,0.0,Bahrain Grand Prix,16,2026
-BOT,22.0,19.0,Cadillac F1 Team,0.0,Bahrain Grand Prix,16,2026
+Abbreviation,TeamName,GridPosition,Position,Points,Race,Round,Year
+VER,Red Bull,1.0,1.0,25.0,Bahrain Grand Prix,16,2026
+ANT,Mercedes,3.0,2.0,18.0,Bahrain Grand Prix,16,2026
+HAM,Ferrari,2.0,3.0,15.0,Bahrain Grand Prix,16,2026
+LEC,Ferrari,4.0,4.0,12.0,Bahrain Grand Prix,16,2026
+HAD,Red Bull,8.0,5.0,10.0,Bahrain Grand Prix,16,2026
+PIA,McLaren,6.0,6.0,8.0,Bahrain Grand Prix,16,2026
+LAW,RB F1 Team,11.0,7.0,6.0,Bahrain Grand Prix,16,2026
+ALO,Aston Martin,12.0,8.0,4.0,Bahrain Grand Prix,16,2026
+NOR,McLaren,5.0,9.0,2.0,Bahrain Grand Prix,16,2026
+LIN,RB F1 Team,22.0,10.0,1.0,Bahrain Grand Prix,16,2026
+HUL,Audi,15.0,11.0,0.0,Bahrain Grand Prix,16,2026
+STR,Aston Martin,14.0,12.0,0.0,Bahrain Grand Prix,16,2026
+COL,Alpine F1 Team,21.0,13.0,0.0,Bahrain Grand Prix,16,2026
+BEA,Haas F1 Team,16.0,14.0,0.0,Bahrain Grand Prix,16,2026
+OCO,Haas F1 Team,17.0,15.0,0.0,Bahrain Grand Prix,16,2026
+GAS,Alpine F1 Team,9.0,16.0,0.0,Bahrain Grand Prix,16,2026
+SAI,Williams,13.0,17.0,0.0,Bahrain Grand Prix,16,2026
+BOR,Audi,10.0,18.0,0.0,Bahrain Grand Prix,16,2026
+PER,Cadillac F1 Team,20.0,19.0,0.0,Bahrain Grand Prix,16,2026
+RUS,Mercedes,7.0,20.0,0.0,Bahrain Grand Prix,16,2026
+ALB,Williams,18.0,21.0,0.0,Bahrain Grand Prix,16,2026
+BOT,Cadillac F1 Team,19.0,22.0,0.0,Bahrain Grand Prix,16,2026
