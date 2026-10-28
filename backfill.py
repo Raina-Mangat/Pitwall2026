@@ -403,10 +403,11 @@ def is_already_processed(race_info):
     """Skip only when prediction and actual results are valid."""
     round_num = race_info["round"]
     year = race_info.get("year", 2026)
+slug = race_info["name"].replace(" ", "_").replace("'", "")
 
-     race_name = race_info["name"].replace(" ", "_")
-     pred_file = f"predictions/{round_num:02d}_{race_name}_{year}.csv"
-     result_file = f"results/{round_num:02d}_{race_name}_{year}.csv"
+    pred_file = f"predictions/{round_num:02d}_{slug}_{year}.csv"
+    result_file = f"results/{round_num:02d}_{slug}_{year}.csv"
+
 
     # Prediction and result files must both exist and contain data.
     if not os.path.exists(pred_file) or not os.path.exists(result_file):
