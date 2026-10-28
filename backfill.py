@@ -363,7 +363,7 @@ def log_accuracy(race_info, pred_result, actual_winner):
         ).any()
         
         if not existing.empty:
-            print(f"Updating accuracy for Round {round_num}.")
+           print(f"Updating accuracy for Round {race_info['round']}.")
 
 
     row = pd.DataFrame([{
