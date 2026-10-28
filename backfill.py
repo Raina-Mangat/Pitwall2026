@@ -404,8 +404,9 @@ def is_already_processed(race_info):
     round_num = race_info["round"]
     year = race_info.get("year", 2026)
 
-    pred_file = f"predictions/{round_num:02d}_{race_info['slug']}_{year}.csv"
-    result_file = f"results/{round_num:02d}_{race_info['slug']}_{year}.csv"
+     race_name = race_info["name"].replace(" ", "_")
+     pred_file = f"predictions/{round_num:02d}_{race_name}_{year}.csv"
+     result_file = f"results/{round_num:02d}_{race_name}_{year}.csv"
 
     # Prediction and result files must both exist and contain data.
     if not os.path.exists(pred_file) or not os.path.exists(result_file):
