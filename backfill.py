@@ -361,9 +361,8 @@ def log_accuracy(race_info, pred_result, actual_winner):
             (existing['Round'].astype(int) == race_info['round']) &
             (existing['Year'].astype(int)  == race_info['year'])
         ).any()
-        if already:
-            print(f"  Accuracy already logged for Round {race_info['round']} — skipping")
-            return
+        if not existing.empty:
+    print(f"Updating accuracy for Round {round_num}.")
 
     row = pd.DataFrame([{
         'Race':            race_info['name'],
