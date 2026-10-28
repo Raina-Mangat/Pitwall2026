@@ -397,24 +397,46 @@ def log_accuracy(race_info, pred_result, actual_winner):
 # CHECK IF RACE ALREADY PROCESSED
 # Skip races that already have both prediction AND result
 # ─────────────────────────────────────────────────────────────────
+
 def is_already_processed(race_info):
-    slug         = race_info['name'].replace(' ','_').replace("'",'')
-    pred_file    = f"predictions/{race_info['round']:02d}_{slug}_{race_info['year']}.csv"
-    result_file  = f"results/{race_info['round']:02d}_{slug}_{race_info['year']}.csv"
-    acc_file     = 'model_accuracy_log.csv'
+    """Skip only when prediction and actual results are valid."""
+    round_num = race_info["round"]
+    year = race_info.get("year", 2026)
 
-    has_pred   = os.path.exists(pred_file)
-    has_result = os.path.exists(result_file)
-    has_acc    = False
+    pred_file = f"predictions/{round_num:02d}_{race_info['slug']}_{year}.csv"
+    result_file = f"results/{round_num:02d}_{race_info['slug']}_{year}.csv"
 
-    if os.path.exists(acc_file):
-        existing = pd.read_csv(acc_file)
-        has_acc  = (
-            (existing['Round'].astype(int) == race_info['round']) &
-            (existing['Year'].astype(int)  == race_info['year'])
-        ).any()
+    # Prediction and result files must both exist and contain data.
+    if not os.path.exists(pred_file) or not os.path.exists(result_file):
+        return False
 
-    return has_pred and has_result and has_acc
+    try:
+        pred = pd.read_csv(pred_file)
+        result = pd.read_csv(result_file)
+
+        if pred.empty or result.empty:
+            return False
+
+        if "Position" not in result.columns:
+            return False
+
+        result["Position"] = pd.to_numeric(
+            result["Position"], errors="coerce"
+        )
+
+        # Require a known winner and at least three podium finishers.
+        if not (result["Position"] == 1).any():
+            return False
+
+        if (result["Position"] <= 3).sum() < 3:
+            return False
+
+        return False  # Reprocess to refresh potentially incorrect accuracy.
+
+    except Exception as e:
+        print(f"Could not validate Round {round_num}: {e}")
+        return False
+
 
 # ─────────────────────────────────────────────────────────────────
 # MAIN — fully automated backfill
