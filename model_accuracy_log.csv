@@ -1,21 +1,21 @@
 Race,Round,Year,PredictedWinner,ActualWinner,WinnerCorrect,PodiumOverlap,PredictedPodium,ActualPodium
 São Paulo Grand Prix,20,2026,ANT,NOR,False,1,"{'ANT', 'NOR', 'RUS'}","{'VER', 'NOR', 'HAD'}"
-Australian Grand Prix,1,2026,ANT,RUS,False,2,"{'ANT', 'PIA', 'LEC'}","{'ANT', 'RUS', 'LEC'}"
-Chinese Grand Prix,2,2026,ANT,ANT,True,2,"{'ANT', 'PIA', 'RUS'}","{'ANT', 'HAM', 'RUS'}"
-Japanese Grand Prix,3,2026,ANT,ANT,True,2,"{'ANT', 'PIA', 'RUS'}","{'ANT', 'PIA', 'LEC'}"
-Miami Grand Prix,4,2026,ANT,ANT,True,1,"{'ANT', 'VER', 'LEC'}","{'ANT', 'PIA', 'NOR'}"
-Canadian Grand Prix,5,2026,ANT,ANT,True,1,"{'ANT', 'PIA', 'RUS'}","{'VER', 'ANT', 'HAM'}"
-Monaco Grand Prix,6,2026,ANT,ANT,True,2,"{'HAM', 'ANT', 'VER'}","{'ANT', 'HAM', 'HAD'}"
-Barcelona Grand Prix,7,2026,ANT,Unknown,False,0,"{'ANT', 'PIA', 'RUS'}",set()
-Austrian Grand Prix,8,2026,RUS,Unknown,False,0,"{'ANT', 'VER', 'RUS'}",set()
-British Grand Prix,9,2026,ANT,LEC,False,0,"{'PIA', 'ANT', 'VER'}","{'HAM', 'RUS', 'LEC'}"
-Belgian Grand Prix,10,2026,ANT,ANT,True,2,"{'ANT', 'VER', 'RUS'}","{'ANT', 'VER', 'LEC'}"
-Hungarian Grand Prix,11,2026,ANT,NOR,False,2,"{'ANT', 'VER', 'RUS'}","{'ANT', 'VER', 'NOR'}"
-Dutch Grand Prix,12,2026,ANT,NOR,False,2,"{'ANT', 'PIA', 'NOR'}","{'RUS', 'ANT', 'NOR'}"
-Italian Grand Prix,13,2026,RUS,ANT,False,2,"{'ANT', 'PIA', 'RUS'}","{'ANT', 'VER', 'RUS'}"
-Spanish Grand Prix,14,2026,ANT,ANT,True,3,"{'ANT', 'VER', 'NOR'}","{'ANT', 'VER', 'NOR'}"
-Azerbaijan Grand Prix,15,2026,LEC,RUS,False,1,"{'PIA', 'RUS', 'LEC'}","{'HAD', 'VER', 'RUS'}"
-Bahrain Grand Prix,16,2026,ANT,Unknown,False,0,"{'ANT', 'PIA', 'RUS'}",set()
-Singapore Grand Prix,17,2026,ANT,Unknown,False,0,"{'PIA', 'ANT', 'VER'}",set()
-United States Grand Prix,18,2026,ANT,ANT,True,1,"{'ANT', 'PIA', 'RUS'}","{'ANT', 'VER', 'LEC'}"
-Mexico City Grand Prix,19,2026,RUS,VER,False,1,"{'ANT', 'RUS', 'LEC'}","{'ANT', 'HAM', 'VER'}"
+Australian Grand Prix,1,2026,ANT,RUS,False,2,"{'LEC', 'PIA', 'ANT'}","{'LEC', 'RUS', 'ANT'}"
+Chinese Grand Prix,2,2026,ANT,ANT,True,2,"{'PIA', 'RUS', 'ANT'}","{'HAM', 'RUS', 'ANT'}"
+Japanese Grand Prix,3,2026,ANT,ANT,True,2,"{'PIA', 'RUS', 'ANT'}","{'LEC', 'PIA', 'ANT'}"
+Miami Grand Prix,4,2026,ANT,ANT,True,1,"{'LEC', 'VER', 'ANT'}","{'PIA', 'NOR', 'ANT'}"
+Canadian Grand Prix,5,2026,ANT,ANT,True,1,"{'PIA', 'RUS', 'ANT'}","{'HAM', 'VER', 'ANT'}"
+Monaco Grand Prix,6,2026,ANT,ANT,True,2,"{'HAM', 'VER', 'ANT'}","{'HAM', 'HAD', 'ANT'}"
+Barcelona Grand Prix,7,2026,ANT,Unknown,False,0,"{'RUS', 'VER', 'ANT'}",set()
+Austrian Grand Prix,8,2026,RUS,Unknown,False,0,"{'RUS', 'VER', 'ANT'}",set()
+British Grand Prix,9,2026,ANT,Unknown,False,0,"{'PIA', 'VER', 'ANT'}",set()
+Belgian Grand Prix,10,2026,ANT,ANT,True,2,"{'RUS', 'VER', 'ANT'}","{'LEC', 'VER', 'ANT'}"
+Hungarian Grand Prix,11,2026,ANT,NOR,False,2,"{'LEC', 'NOR', 'ANT'}","{'NOR', 'VER', 'ANT'}"
+Dutch Grand Prix,12,2026,ANT,NOR,False,2,"{'PIA', 'NOR', 'ANT'}","{'RUS', 'NOR', 'ANT'}"
+Italian Grand Prix,13,2026,RUS,ANT,False,2,"{'ANT', 'RUS', 'PIA'}","{'RUS', 'VER', 'ANT'}"
+Spanish Grand Prix,14,2026,ANT,ANT,True,3,"{'NOR', 'VER', 'ANT'}","{'NOR', 'VER', 'ANT'}"
+Azerbaijan Grand Prix,15,2026,LEC,RUS,False,1,"{'LEC', 'RUS', 'PIA'}","{'RUS', 'VER', 'HAD'}"
+Bahrain Grand Prix,16,2026,ANT,Unknown,False,0,"{'VER', 'HAD', 'ANT'}",set()
+Singapore Grand Prix,17,2026,ANT,Unknown,False,0,"{'PIA', 'VER', 'ANT'}",set()
+United States Grand Prix,18,2026,ANT,ANT,True,1,"{'PIA', 'RUS', 'ANT'}","{'LEC', 'VER', 'ANT'}"
+Mexico City Grand Prix,19,2026,RUS,VER,False,1,"{'LEC', 'RUS', 'ANT'}","{'HAM', 'VER', 'ANT'}"
